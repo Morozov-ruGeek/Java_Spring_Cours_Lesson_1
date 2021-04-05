@@ -34,6 +34,7 @@
                         <th scope="row">
                             <c:out value="${product.id}"/>
                         </th>
+
                         <td>
                             <c:out value="${product.name}"/>
                         </td>

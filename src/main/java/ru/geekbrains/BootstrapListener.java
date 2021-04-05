@@ -14,8 +14,8 @@ public class BootstrapListener implements ServletContextListener {
 
         productRepository.saveOrUpdate(new Product(null, "Product 1", new BigDecimal(100)));
         productRepository.saveOrUpdate(new Product(null, "Product 2", new BigDecimal(150)));
-        productRepository.saveOrUpdate(new Product(null, "Product 3", new BigDecimal(200)));
-        productRepository.saveOrUpdate(new Product(null, "Product 4", new BigDecimal(200)));
+        productRepository.saveOrUpdate(new Product(null, "Product 3", new BigDecimal(30)));
+        productRepository.saveOrUpdate(new Product(null, "Product 4", new BigDecimal(120)));
         productRepository.saveOrUpdate(new Product(null, "Product 5", new BigDecimal(200)));
         productRepository.saveOrUpdate(new Product(null, "Product 6", new BigDecimal(200)));
         productRepository.saveOrUpdate(new Product(null, "Product 7", new BigDecimal(200)));

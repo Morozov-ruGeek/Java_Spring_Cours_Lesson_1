@@ -40,7 +40,6 @@ public class ProductServlet extends HttpServlet {
             if(strId != null && !strId.isEmpty()){
                 id = Long.parseLong(req.getParameter("id"));
             }
-
         } catch (NumberFormatException ex) {
             resp.setStatus(400);
             return;
