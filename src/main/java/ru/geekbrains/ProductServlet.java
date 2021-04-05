@@ -11,6 +11,7 @@ import java.util.logging.Logger;
 
 @WebServlet(urlPatterns = "/products/*")
 public class ProductServlet extends HttpServlet {
+
     private static final Logger logger = Logger.getLogger(String.valueOf(ProductServlet.class));
 
     private ProductRepository productRepository;
